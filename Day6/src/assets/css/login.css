@@ -1,0 +1,126 @@
+
+
+body, h1, h2, p, ul, li 
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('D:\tracking\src\assets\images\img2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1f1919; /* Fallback background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: transparent;
+  color: #1b1b1d;
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 1rem;
+}
+
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color:transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px grey;
+  padding: 3rem;
+  width: 300px;
+  margin: 2rem auto;
+  margin-top: 6.9rem;
+  
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: rgb(60, 6, 206);
+  color: #fffefe;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(38, 75, 38);
+}
+
+footer {
+  background-color:transparent;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 26rem;
+}
+
+.login-container p {
+  margin-top: 15px;
+}
+.vvd
+{
+  font-style: italic;
+}
+.register-here
+{
+color:rgb(110, 5, 248);
+cursor: pointer;
+}
+.kalai
+{
+  color:white;
+  margin-left: 55px;
+}
+.jj
+{
+  color: white;
+  margin-left: -20px;
+
+}
+.register-link
+{
+  color: red;
+}
+.di
+{
+  
+}

@@ -1,0 +1,33 @@
+/* aboutus.css */
+
+.custom-aboutus-container {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(94, 94, 94, 0.2);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .custom-aboutus-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0a0a0a;
+  }
+  
+  .custom-aboutus-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fffcfc;
+  }
+  .th
+  {
+    margin-left: 300px;
+  }
+  .ab 
+  {
+    color: rgb(245, 242, 242);
+  }
+  
+  /* You can add more styles as needed to customize the page's appearance. */
+  

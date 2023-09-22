@@ -1,0 +1,110 @@
+/* dashboard.css */
+
+/* Style the dashboard container */
+.dashboard {
+  display: flex;
+}
+
+/* Style the sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #0a0a0a;
+  margin-bottom: 20px;
+  color: #fff;
+  padding: 20px;
+  height: 900px;
+}
+
+/* Style the sidebar navigation buttons */
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 50px;
+}
+
+.sidebar-nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Style the main content area */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Add styling for active button if needed */
+.sidebar-nav button.active {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* Hover effect for sidebar buttons */
+.sidebar-nav button:hover {
+  background-color: #555;
+}
+.user_name
+{
+  color: red;
+}
+/* dashboard.css */
+
+/* ... (existing styles) */
+
+/* Style the "Let's begin your journey with us!" text */
+.welcome-text {
+  font-weight: bold;
+  font-family: 'poppins', sans-serif; /* Use your desired font */
+  font-size: 18px;
+  color:#000000; /* Customize the color as needed */
+  margin-top: 10px;
+}
+
+/* dashboard.css */
+
+/* ... (existing styles) */
+
+/* Style the new text */
+.sub-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color:rgb(5, 5, 5); /* Grey color */
+  margin-top: 10px;
+  margin-left: 1100px;
+}
+
+/* ... (other styles) */
+/* dashboard.css */
+
+/* ... (existing styles) */
+
+/* Style the image rows */
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 350px;
+}
+
+/* Style the dashboard images */
+.dashboard-image {
+  width: 28%; /* Adjust the width as needed */
+  height: 1000px;
+  max-height: 200px; /* Set the maximum height to ensure uniformity */
+}
+.hi{
+  color: #fff;
+}
+
+/* ... (other styles) */
+
