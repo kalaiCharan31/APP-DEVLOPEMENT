@@ -1,0 +1,181 @@
+
+
+.wedding-registration-form-container {
+    background-color: transparent; /* Make the form background transparent */
+    padding: 20px;
+    border: none; /* Remove the border */
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .wedding-registration-form-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: cursive; 
+  }
+  
+  .wedding-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .wedding-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: cursive; /* Set the font-family to cursive */
+  }
+  
+  
+  .wedding-form-group input[type="text"],
+  .wedding-form-group input[type="time"],
+  .wedding-form-group input[type="date"],
+  .wedding-form-group select,
+  .wedding-form-group input[type="tel"] /* Add specific styling for the mobile number field */ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: cursive; /* Set the font-family to cursive */
+  }
+  
+  
+  .wedding-form-group select {
+    appearance: none;
+  }
+  
+  .wedding-form-group button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .wedding-form-group button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .popp
+  {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color:red;
+    text-shadow: 2px 2px 4px rgb(64, 61, 61);
+  }
+
+  /* ... (previous CSS styles) */
+
+/* Radio button styles */
+.radio-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* ... (additional CSS styles as needed) */
+/* ... (previous CSS styles) */
+
+/* Add styles for the "Address" input field */
+.wedding-form-group label[for="address"] {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .wedding-form-group input[type="text"][id="address"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+
+/* Styles for WeddingRegistrationForm component */
+
+/* ... (previous CSS styles) */
+
+
+
+
+/* Increase the width of the text input fields */
+.wedding-form-group input[type="text"],
+.wedding-form-group input[type="time"],
+.wedding-form-group input[type="date"],
+.wedding-form-group select,
+.wedding-form-group input[type="tel"] {
+    width: 100%; /* Make sure it takes 100% width */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: cursive; /* Set the font-family to cursive */
+}
+
+/* ... (other CSS styles as needed) */
+
+/* Increase the width of the Furniture Type input */
+.wedding-form-group input[type="text"][id="furnitureType"],
+.wedding-form-group input[type="text"][id="photography"] {
+    width: 2000px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: cursive; /* Set the font-family to cursive */
+    border: 1px solid black;
+    
+}
+
+/* Increase the width of the Furniture Type select input using a specific class */
+.wedding-form-group select.custom-select {
+    width: 420px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: cursive; /* Set the font-family to cursive */
+  }
+  /* Increase the width of the Photography select input using a specific class */
+.wedding-form-group select.custom-select {
+    width: 420px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: cursive; /* Set the font-family to cursive */
+  }
+  
+
+.wedding-form-group select.custom-select {
+    width: 420px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: cursive; /* Set the font-family to cursive */
+  }
+  /* Add styling for the email input field */
+.wedding-form-group label[for="email"] {
+    margin-top: 10px;
+  }
+  
+  .wedding-form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  

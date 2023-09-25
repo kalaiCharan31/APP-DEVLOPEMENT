@@ -1,0 +1,23 @@
+/* ConfirmationPage.css */
+
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .email-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-bottom: 20px;
+  }
+  
+  .success-message {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Change the color as desired */
+  }
+  

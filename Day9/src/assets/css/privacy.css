@@ -1,0 +1,32 @@
+/* privacy.css */
+.privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privacy-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-content {
+    margin-top: 20px;
+  }
+  
+  .privacy-section {
+    margin-bottom: 30px;
+  }
+  
+  .privacy-section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  

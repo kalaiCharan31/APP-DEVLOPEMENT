@@ -1,0 +1,92 @@
+/* dashboard.css */
+
+/* Dashboard container */
+.Dashboard {
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+/* Sidebar styles */
+.Sidebar {
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.SidebarItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.SidebarItem:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: #555;
+}
+
+/* Dashboard content styles */
+.Dashboard-Content {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Profile content styles */
+.profile-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-left img {
+  border-radius: 50%;
+  border: 2px solid #555;
+}
+
+/* Event images styles */
+.event-images {
+  text-align: center;
+}
+
+.dashboard-image {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Logout button styles */
+.Logout {
+  margin-top: 20px;
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.Logout:hover {
+  background-color: #e04111;
+}
+.username_username
+{
+  color: red;
+}
+.font
+{
+  font-family: 'Croissant One', cursive;
+
+}
+.vvji
+{
+  color: red
+}

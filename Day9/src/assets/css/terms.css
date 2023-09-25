@@ -1,0 +1,32 @@
+/* terms.css */
+.terms-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .terms-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .terms-content {
+    margin-top: 20px;
+  }
+  
+  .terms-section {
+    margin-bottom: 30px;
+  }
+  
+  .terms-section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .terms-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
